@@ -28,3 +28,17 @@ This license terminates automatically if any terms are violated.
 
 For questions or extended licensing (web, app embedding, multi-seat), 
 contact: danova.v.it@gmail.com
+
+6. WEB FONT LICENSE (@font-face embedding)
+
+Use of the Font via @font-face or any web embedding technology 
+requires a separate Web License, purchased in addition to the 
+Desktop License.
+
+The Web License permits embedding the Font (WOFF/WOFF2 format only) 
+via CSS @font-face on websites you own or operate.
+
+The Web License does NOT permit distribution of the raw font file 
+via direct, publicly accessible download links, or use of the Font 
+in web-based applications or font-as-a-service platforms without an 
+Extended License.
