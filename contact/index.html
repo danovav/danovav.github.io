@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти · Vera Danova</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:    #1a1814;
+      --mid:    #6b6560;
+      --pale:   #b8b0a6;
+      --paper:  #f7f5f1;
+      --accent: #3a3028;
+      --rule:   #dedad4;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.15rem;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+    }
+
+    .card { max-width: 520px; width: 100%; }
+
+    .mono {
+      font-size: 3.2rem;
+      font-style: italic;
+      font-weight: 500;
+      letter-spacing: -.02em;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: .3rem;
+    }
+
+    .subtitle {
+      font-size: .82rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--pale);
+      font-family: Georgia, serif;
+      margin-bottom: 2.8rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin-bottom: 2.4rem;
+    }
+
+    h1 {
+      font-size: 1.05rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--mid);
+      margin-bottom: 1.2rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    .contact-block {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+    }
+
+    .label {
+      font-size: .75rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--pale);
+      font-family: Georgia, serif;
+      min-width: 4.5rem;
+      flex-shrink: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      transition: border-color .15s;
+    }
+    a:hover { border-color: var(--accent); }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: .65rem 1.8rem;
+      background: var(--accent);
+      color: var(--paper);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1rem;
+      font-style: italic;
+      letter-spacing: .04em;
+      border: none;
+      border-bottom: none;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .btn:hover { opacity: .82; border-bottom: none; }
+
+    .footer {
+      margin-top: 3.5rem;
+      font-size: .78rem;
+      color: var(--pale);
+      font-family: Georgia, serif;
+      letter-spacing: .04em;
+    }
+
+    @media (max-width: 480px) {
+      .mono { font-size: 2.4rem; }
+      .contact-row { flex-direction: column; gap: .2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <!-- <div class="mono">Vera Danova</div>
+    <div class="subtitle">Type Designer &nbsp;·&nbsp; Sofia, Bulgaria</div>
+
+    <hr> -->
+
+    <h1>Контакти / Contact</h1>
+
+    <p>За въпроси относно лиценза, заявки за допълнителни знаци или Unicode покритие, и за търговски запитвания:</p>
+    <p>For licensing questions, requests for additional characters or Unicode coverage, and commercial enquiries:</p>
+
+    <a class="btn" href="https://forms.gle/2gkpPctz1RP1MYge8" target="_blank" rel="noopener">
+      Изпратете съобщение / Send a message
+    </a>
+
+    <div class="contact-block">
+      <!-- <div class="contact-row">
+        <span class="label">Web</span>
+        <a href="https://vboutchkova.wixsite.com/vera" target="_blank" rel="noopener">vboutchkova.wixsite.com/vera</a>
+      </div> -->
+      <div class="contact-row">
+        <span class="label">Fonts</span>
+        <a href="https://danovav.github.io/sdksite/fonts-test/index.html" target="_blank" rel="noopener">danovav.github.io</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 Vera Danova &nbsp;·&nbsp;
+      <a href="https://danovav.github.io/licenses/ralibulgarian/license.md">License</a>
+    </div>
+
+  </div>
+</body>
+</html>
