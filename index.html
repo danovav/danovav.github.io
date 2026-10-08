@@ -1,32 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="bg">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Static Site Demo</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Шрифтове</title>
+<meta name="description" content="Шрифтове с кирилица и латиница. Rali Bulgarian Light — калиграфски ръкописен шрифт.">
+<style>
+  :root {
+    --paper: #f5f6f8;
+    --ink: #1c2230;
+    --muted: #596073;
+    --rule: #d4d8e0;
+    --accent: #2c4a8f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #12151c;
+      --ink: #e8eaf0;
+      --muted: #98a0b3;
+      --rule: #2b3140;
+      --accent: #8fa8e8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #12151c;
+    --ink: #e8eaf0;
+    --muted: #98a0b3;
+    --rule: #2b3140;
+    --accent: #8fa8e8;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: clamp(2rem, 8vw, 5rem) 1.5rem;
+  }
+  h1 { margin: 0 0 2rem; font-size: 1.75rem; font-weight: 600; line-height: 1.2; }
+  h2 {
+    margin: 2.5rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  p { margin: 0.25rem 0 0; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); text-underline-offset: 0.2em; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+</style>
 </head>
-
 <body>
-  <main class="card">
-    <h1>Static site (GitHub Pages)</h1>
+<main>
+  <h1>Шрифтове</h1>
 
-    <p>
-      Това е <strong>статичен сайт</strong>: браузърът получава готови файлове
-      (<code>HTML</code>, <code>CSS</code>, <code>JavaScript</code>).
-      Няма сървърен код като <code>PHP</code>.
-    </p>
+  <h2>Rali Bulgarian Light</h2>
+  <p><a href="/ralibulgarianlight/">Мостра и символи</a></p>
+  <p class="muted">Калиграфски ръкописен шрифт с кирилица и латиница.</p>
 
-    <h2>Защо е статичен?</h2>
-    <ul>
-      <li>GitHub Pages НЕ изпълнява PHP.</li>
-      <li>Хоства само готови файлове.</li>
-      <li>Затова сайтът е бърз и лесен за публикуване.</li>
-    </ul>
+  <h2>Лиценз</h2>
+  <p><a href="/licenses/ralibulgarian/license.md">Лицензно споразумение (EULA)</a></p>
 
-    <p class="email">
-      Контакт: <a href="mailto:имейл">имейл</a>
-    </p>
-  </main>
+  <h2>Контакт</h2>
+  <p><a href="/contact/">Страница за контакт</a></p>
+</main>
 </body>
 </html>
