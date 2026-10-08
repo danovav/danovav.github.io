@@ -9,7 +9,8 @@ the license terms and purchase receipt provided by that marketplace govern the u
 
 1. GRANT OF LICENSE
 
-This is a non-exclusive, non-transferable license to use the Rali Bulgarian font software ("the Font") 
+This is a non-exclusive, non-transferable license to use the Rali Bulgarian font software, 
+including Rali Bulgarian Light (PostScript name: RaliBulgarian-Light) ("the Font")
 for personal and commercial design purposes, including but not limited to print materials, 
 logos, digital graphics, and merchandise designs created using the Font.
 
@@ -41,16 +42,17 @@ contact: [danova.v.it@gmail.com](mailto:danova.v.it@gmail.com)
 
 6. WEB FONT LICENSE (@font-face embedding)
 
-Use of the Font through @font-face or another web embedding technology requires a separate Web License. 
-A Desktop License alone does not permit web embedding.
+Use of the Font through @font-face or another web embedding technology requires a separate Web License. A Desktop License alone does not permit web embedding.
 
-The Web License permits embedding the Font in WOFF or WOFF2 format through 
-CSS @font-face on websites owned or operated by the license holder.
+The Web License permits embedding the Font in WOFF or WOFF2 format through CSS @font-face on websites owned or operated by the license holder, subject to the restrictions below. There is no limit on the number of domains or on monthly page views.
 
 The Web License does not permit:
 
-* Distribution of the raw font files through direct, publicly promoted download links.
+* Making the Font files available as standalone downloads, or distributing them for installation or reuse outside the permitted web embedding.
+* Use of the Font on websites belonging to third parties, including clients of the license holder, unless that third party holds its own Web License.
+* Including the Font files in any template, theme, plugin, application, or other product distributed or sold to third parties.
 * Use of the Font in web-based applications, font-as-a-service platforms, or online typesetting tools without an appropriate extended license.
 
-The license holder agrees to serve the Font files only from domains they own or 
-control and not to provide a separate public download link to the raw WOFF or WOFF2 files.
+The Font files may be served from domains controlled by the license holder or through hosting or content delivery services authorized by the license holder, solely to support the permitted web embedding.
+
+Automatic downloading and caching by web browsers, as necessary to display the licensed websites, is permitted. Such technical access does not grant visitors any right to install, reuse, share, or redistribute the Font files.
